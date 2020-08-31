@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+body {
+    background:#f2f2f2;
+}
+
 .text {
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
-}
-
-#header {
-    
 }
 
 #header-img {
@@ -27,7 +27,7 @@
 /* Color for the top navigation */
 .topnav {
     position: relative;
-    background-color: blue;
+    background-color:#0080ff;
     overflow: hidden;
 }
 
@@ -137,7 +137,7 @@ of next to each other (for mobile devices) */
     width: 100%;
     padding: 0.75rem;
     margin: 0.50rem auto 0 auto;
-    background: #fc6b03; 
+    background: #0039e6; 
     color: white;
     border-radius: 2px;
     cursor: pointer;
