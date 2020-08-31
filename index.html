@@ -7,55 +7,61 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
-<body>
-    <header id="header">
-        <img id="header-img" src="images/logo.png" alt="">
-        <nav id="nav-bar">
-            <div class="topnav">
-                <div class="topnav-centered">
-                    <a class="nav-link" href="#description">About Talisker</a>
-                </div>
-                <div class="topnav-left">
-                    <a class="nav-link" href="#video">Video</a>
-                </div>
-                <div class="topnav-right">
-                    <a class="nav-link" href="#form">Contact Us</a>
-                </div>
+<header id="header">
+    <img id="header-img" src="images/logo.png" alt="">
+    <nav id="nav-bar">
+        <div class="topnav">
+            <div class="topnav-centered">
+                <a class="nav-link" href="#description">About Talisker</a>
             </div>
-        </nav>
-    </header>
-    <div>
-        <p id="description" class="text">
-            Talisker distillery is an Island single malt Scotch whisky distillery based in Carbost, 
-            Scotland on the Isle of Skye. The distillery is operated by Diageo, 
-            and Talisker's 10 year old expression has been nominated as part of their Classic Malts series. 
-            The brand is considered a premium Single Malt Whisky.
-            The spirit is most frequently matured in American oak casks. The malt is peated to a phenol level 
-            of approximately 18–22 parts per million (ppm), which is a medium peating level. Additionally, 
-            the water used for production, from Cnoc nan Speireag (Hawk Hill), flows over peat which adds 
-            additional complexity to the whisky.
-            <br>
-            <br>
-            The distillery began producing special bottlings of the whisky for connoisseurs in the early 2000s, 
-            with a 20- and 25-year bottling (where previously only a 10-year and 18-year were available). 
-            The 25-year bottling, despite being more expensive than the 20-year bottling, 
-            was distributed more widely.
-            <br>
-            In 2007 Talisker 18-year-old won "Best Single Malt In The World 2007" at the World Whiskies Awards 
-            and in 2015 Talisker 10 Year Old won a Double Gold Medal and "Best Single Malt Scotch up to 12 years" 
-            in the San Francisco World Spirits Competition.
-        </p>
-    </div>
-    <div id="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ygbnzytQ3oU?autoplay=1&mute=1&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <div>
-        <form id="form" class="form_inputs" action="https://freecodecamp.com/email-submit">
-            <label id="email" for="email"> Contact us if you want to experience </label>
-            <input id="email" type="email" name="email" placeholder="Give us your e-mail address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-inputs" required>
-            <br>
-            <input id="submit" type="submit" value="Submit" class="submit_button">
-        </form>
-    </div>
+            <div class="topnav-left">
+                <a class="nav-link" href="#video">Video</a>
+            </div>
+            <div class="topnav-right">
+                <a class="nav-link" href="#form">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <section id="description">
+        <div>
+            <p class="text">
+                Talisker distillery is an Island single malt Scotch whisky distillery based in Carbost, 
+                Scotland on the Isle of Skye. The distillery is operated by Diageo, 
+                and Talisker's 10 year old expression has been nominated as part of their Classic Malts series. 
+                The brand is considered a premium Single Malt Whisky.
+                The spirit is most frequently matured in American oak casks. The malt is peated to a phenol level 
+                of approximately 18–22 parts per million (ppm), which is a medium peating level. Additionally, 
+                the water used for production, from Cnoc nan Speireag (Hawk Hill), flows over peat which adds 
+                additional complexity to the whisky.
+                <br>
+                <br>
+                The distillery began producing special bottlings of the whisky for connoisseurs in the early 2000s, 
+                with a 20- and 25-year bottling (where previously only a 10-year and 18-year were available). 
+                The 25-year bottling, despite being more expensive than the 20-year bottling, 
+                was distributed more widely.
+                <br>
+                In 2007 Talisker 18-year-old won "Best Single Malt In The World 2007" at the World Whiskies Awards 
+                and in 2015 Talisker 10 Year Old won a Double Gold Medal and "Best Single Malt Scotch up to 12 years" 
+                in the San Francisco World Spirits Competition.
+            </p>
+        </div>
+    </section>
+    <section id="video">
+        <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ygbnzytQ3oU?autoplay=1&loop=1&mute=1" frameborder="0" allow="accelerometer; autoplay; loop; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="form">
+        <div>
+            <form class="form_inputs" action="https://freecodecamp.com/email-submit">
+                <label id="email" for="email"> Contact us for more information </label>
+                <input id="email" type="email" name="email" placeholder="Give us your e-mail address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-inputs" required>
+                <br>
+                <input id="submit" type="submit" value="Submit" class="submit_button">
+            </form>
+        </div>
+    </section>
 </body>
 </html>
